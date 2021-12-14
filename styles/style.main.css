@@ -284,3 +284,54 @@ footer {
 footer ul li {
   margin-top: 10px;
 }
+/* Admin panel */
+.adm_panel {
+  width: 80%;
+  display: flex;
+}
+.adm_panel aside {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 5px;
+}
+.icon {
+  width: 30px;
+  cursor: pointer;
+}
+.adm_panel_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.adm_panel_content ul {
+  display: flex;
+  flex-direction: column;
+}
+.adm_panel_content ul li {
+  display: flex;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding-bottom: 10px;
+}
+.blocks {
+  border: 1px solid rgb(216, 216, 216);
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+.user_action {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.user_action a {
+  margin-left: 5px;
+}
+.adm_panel_content_header {
+  padding-bottom: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(104, 96, 96);
+}
